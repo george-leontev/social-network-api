@@ -1,10 +1,10 @@
 fastapi
+fastapi[standard]
 uvicorn
 sqlalchemy
 psycopg2-binary
-python-jose[cryptography]
-passlib[bcrypt]
-python-multipart
+pyjwt
+pwdlib[argon2]
 websockets
 python-dotenv
 alembic
